@@ -4,7 +4,7 @@ var PORTgood = 7000;
 var PORTbad = 7500;
 
 function handleRequest(req, response) {
-    response.end("this works!" + req.url);
+    response.end("You look nice!");
 }
 
 var server1 = http.createServer(handleRequest);
